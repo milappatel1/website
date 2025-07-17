@@ -210,6 +210,18 @@ export default function AnniversaryPage() {
             </div>
           </div>
         </div>
+
+        {/* Custom Footer */}
+        <footer className="mt-16 text-center">
+          <div className="bg-white/80 backdrop-blur-sm rounded-2xl px-6 py-4 inline-block border-2 border-pink-200 shadow-lg">
+            <p className="text-gray-600 font-medium">
+              Built with 💖 by{" "}
+              <span className="bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent font-bold">
+                Milu
+              </span>
+            </p>
+          </div>
+        </footer>
       </div>
     </div>
   )
